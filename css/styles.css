@@ -1,0 +1,31 @@
+.primary-overlay{
+    background: rgba(50, 48, 44, 0.6);
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height: 100%;
+    overflow: :hidden;
+}
+
+.main-header{
+    background: url(../assets/images/portada.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 600px;
+    color: #fff;
+}
+
+.main-header .showcase{
+    padding-top:100px;
+}
+
+.section-quality{
+    position:relative;
+    background: url(../assets/images/engine.jpg);
+    background-size: cover;
+    background-position: center;
+    border-top: black solid 6px;
+    border-bottom: black solid 6px;
+    min-height: 180px;
+}
