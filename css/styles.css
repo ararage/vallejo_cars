@@ -29,3 +29,18 @@
     border-bottom: black solid 6px;
     min-height: 180px;
 }
+
+.section-catalogo{
+    position: relative;
+    background: url(../assets/images/cars.jpg);
+    background-size: cover;
+    background-position: center;
+    border-top: #333 solid 5px;
+    border-bottom: #333 solid 5px;
+    min-height: 180px;
+}
+
+.section-catalogo .primary-overlay{
+    background: rgba(50, 48, 44, 0.6);
+}
+
